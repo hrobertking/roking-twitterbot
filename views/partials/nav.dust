@@ -1,0 +1,54 @@
+<div class="menu-overlay">
+  <ul class="menu" id="main-menu" role="navigation">
+    <li class="item">
+      <a href="?page=meat">Meat</a>
+      <ul class="submenu">
+        <li class="item">
+          <a href="?page=meat&type=notyummy">
+            Not-so-yummy Meats
+          </a>
+        </li>
+        <li class="separator"></li>
+        <li class="item">
+          <a href="?page=meat&type=yummy">
+            Yummy Meats
+          </a>
+        </li>
+        <li class="item">
+          <a href="?page=meat&type=tasty">
+            Tasty Meats
+          </a>
+        </li>
+      </ul>      <span class="indicator"></span>
+    </li>
+    <li class="item">
+      <a href="?page=fish">Fish</a>
+      <span class="indicator"></span>
+    </li>
+    <li class="item">
+      <a href="?page=veggies">Veggies</a>
+      <span class="indicator"></span>
+    </li>
+    <li class="item">
+      <a href="?page=cupcake">Desserts</a>
+      <ul class="submenu">
+        <li class="item">
+          <a href="?page=cupcake&type=notyummy">
+            Not-so-yummy desserts
+          </a>
+        </li>
+        <li class="separator"></li>
+        <li class="item">
+          <a href="?page=cupcake&type=yummy">
+            Yummy cupcakes
+          </a>
+        </li>
+        <li class="item">
+          <a href="?page=cupcake&type=tasty">
+            Tasty cupcakes
+          </a>
+        </li>
+      </ul>      <span class="indicator"></span>
+    </li>
+  </ul>
+</div>

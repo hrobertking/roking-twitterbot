@@ -1,0 +1,38 @@
+.twitter-feed {
+    display:inline-block;
+    font:15px/22px Verdana;
+    height:19em;
+    overflow-x:hidden;
+    overflow-y:auto;
+  }
+.twitter-feed > .status-update {
+    border:0.1em solid #000;
+    height:8em;
+    margin:0 0.5em 0.4em;
+    overflow:hidden;
+    padding:0.5em;
+  }
+.twitter-feed > .status-update:last-of-type {
+    margin-bottom:0;
+  }
+.twitter-feed > .status-update > header {
+    float:none;
+    overflow:auto;
+  }
+.twitter-feed > .status-update > header > img {
+    border-radius:0.3em;
+    float:left;
+    height:3em;
+    margin-right:0.3em;
+    width:3em;
+  }
+.twitter-feed > .status-update > header > .name,
+.twitter-feed > .status-update > header > .screen-name {
+    display:block;
+    font-size:0.8em;
+  }
+.twitter-feed > .status-update > p {
+    font-size:0.8em;
+    line-height:normal;
+    margin:0.2em 0;
+  }

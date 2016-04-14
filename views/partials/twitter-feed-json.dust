@@ -1,0 +1,12 @@
+[
+  {#tweets}
+    {
+      user: {
+        profile_image_url: "{.user.profile_image_url}",
+        name: "{.user.name}",
+        screen_name: "{.user.screen_name}"
+      },
+      text: "{.text}"
+    }{@sep},{/sep}
+  {/tweets}
+]

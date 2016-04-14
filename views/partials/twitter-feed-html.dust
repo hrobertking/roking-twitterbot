@@ -1,0 +1,14 @@
+<div class="twitter-feed">
+  {#tweets}
+    <div class="status-update">
+      <header>
+        <img src="{.user.profile_image_url}" />
+        <span class="name">{.user.name}</span>
+        <span class="screen-name">@{.user.screen_name}</span>
+      </header>
+      <p>
+        {.text}
+      </p>
+    </div>
+  {/tweets}
+</div>

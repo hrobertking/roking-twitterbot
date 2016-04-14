@@ -1,0 +1,71 @@
+body {
+    margin:0;
+  }
+h2 {
+    text-transform:capitalize;
+  }
+
+.banner {
+    font-size:0.9em;
+  }
+
+.menu-overlay ~ .main {
+    margin-top:1.7em;
+  }
+
+#twitter-feed .time-remaining {
+    font:0.7em Verdana;
+    text-align:center;
+  }
+
+@media screen and (max-width:480px) {
+  .tablet-up {
+      display:none;
+    }
+}
+
+@media screen and (min-width:481px) {
+  body {
+      margin:auto;
+      width:960px;
+    }
+  
+  .banner {
+      display:block;
+      font-size:40px;
+      text-align:center;
+    }
+
+  .content {
+      margin:0 0 0 1%;
+      width:69%;
+    }
+  .content > :first-child {
+      margin-top:0;
+    }
+
+  .footer {
+      text-align:center;
+    }
+
+  .mobile-only {
+      display:none;
+    }
+
+  .menu-overlay ~ .main {
+      margin-top:1em;
+    }
+
+  .row {
+      float:none;
+      margin:1em auto;
+      overflow:auto;
+    }
+  .row > div {
+      float:left;
+    }
+
+  #twitter-feed {
+      width:30%;
+    }
+}

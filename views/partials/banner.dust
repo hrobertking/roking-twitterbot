@@ -1,0 +1,4 @@
+<h1>
+  <span class="banner">The Awesome Feed</span>
+  <span aria-hidden="true" class="mobile-only menu button open close"></span>
+</h1>
