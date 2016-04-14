@@ -24,7 +24,7 @@ To retrieve status updates for a different Twitter handle, pass the --screen <NA
 node server.js --consumer_key <YOUR-KEY> --consumer_secret <YOUR-SECRET> --access_key <YOUR-TOKEN-KEY> --access_secret <YOUR-TOKEN-SECRET> --screen <NAME>
 ``
 
-Example: node server.js --consumer_key <YOUR-KEY> --consumer_secret <YOUR-SECRET> --access_key <YOUR-TOKEN-KEY> --access_secret <YOUR-TOKEN-SECRET> --screen @hrobertking
+Example: node server.js --consumer_key NotGonnaTell --consumer_secret MySecret --access_key NotThisOneEither --access_secret ThisIsSecretToo --screen @hrobertking
 
 
 To retrieve more or less than 10 tweets, pass the count on the command line  
@@ -33,7 +33,7 @@ To retrieve more or less than 10 tweets, pass the count on the command line
 node server.js --consumer_key <YOUR-KEY> --consumer_secret <YOUR-SECRET> --access_key <YOUR-TOKEN-KEY> --access_secret <YOUR-TOKEN-SECRET> --count <NUMBER>
 ``
 
-Example: node server.js --consumer_key <YOUR-KEY> --consumer_secret <YOUR-SECRET> --access_key <YOUR-TOKEN-KEY> --access_secret <YOUR-TOKEN-SECRET> --count 20
+Example: node server.js --consumer_key NotGonnaTell --consumer_secret MySecret --access_key NotThisOneEither --access_secret ThisIsSecretToo --count 20
 
 
 To switch into 'debug' mode, using sample data rather than authenticating with Twitter, pass the debug switch on the command line  
